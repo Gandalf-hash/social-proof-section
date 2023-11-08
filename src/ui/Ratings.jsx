@@ -18,12 +18,12 @@ function Ratings() {
 
   return (
     <div className="w-full">
-      <div className="flex flex-col gap-4  max-w-xl">
+      <div className="flex flex-col gap-4 max-w-xl">
         {items.map((item, index) => (
           <div
             key={index}
             className={`flex flex-row w-full justify-center max-w-xl lg:gap-2 pr-6 border-none items-center rounded-xl bg-cream py-4 ${
-              index === 1 ? "lg:ml-16" : index === 2 ? "lg:ml-32" : ""
+              index === 1 ? "xl:ml-16" : index === 2 ? "xl:ml-32" : ""
             }`}
           >
             {[...Array(5)].map((_, i) => (

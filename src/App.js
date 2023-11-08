@@ -14,7 +14,7 @@ function App() {
             services.
           </p>
         </div>
-        <div className="xl:mr-40 xl:mb-20 flex items-center lg:mt-12">
+        <div className="xl:mr-40 xl:mb-20 flex justify-start  items-start lg:mt-12">
           <Ratings />
         </div>
       </div>
