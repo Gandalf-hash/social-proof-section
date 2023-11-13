@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site]([https://your-live-site-url.com](https://social-proof-section-six-taupe.vercel.app/))
+- Solutions URL: [Solution](https://www.frontendmentor.io/solutions/responsive-social-proof-with-user-reviews-pt0q6l-_Ct)
+- Live Site URL: [Live Site](https://social-proof-section-six-taupe.vercel.app/)
 
 ## My process
 
