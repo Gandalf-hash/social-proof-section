@@ -15,6 +15,8 @@ module.exports = {
       "primary-color": "#560764",
       "primary-text-color": "#B9B4C7",
       cream: "#F7F2F8",
+      white: "#ffffff",
+      description: "#A85E93",
     },
   },
   plugins: [],

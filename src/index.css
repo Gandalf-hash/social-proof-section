@@ -9,7 +9,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #faf8fb;
-  background-image: url("/public/images/bg-pattern-top-desktop.svg");
-  background-repeat: no-repeat;
-  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("/public/images/bg-pattern-top-desktop.svg"),
+      url("/public/images/bg-pattern-bottom-desktop.svg");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Mobile Background Image */
+@media (max-width: 767px) {
+  body {
+    background-image: url("/public/images/bg-pattern-top-mobile.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
 }
