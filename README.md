@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot 2023-11-13 at 13-49-50 Frontend Mentor Social proof section](https://github.com/Gandalf-hash/social-proof-section/assets/53972152/1f05edad-bc59-4f33-baa9-80df13047c24)
+
 
 ![Screenshot](<Screenshot 2023-11-13 at 13-49-50 Frontend Mentor Social proof section.png>)
 
