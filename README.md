@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 2023-11-13 at 13-49-50 Frontend Mentor Social proof section](https://github.com/Gandalf-hash/social-proof-section/assets/53972152/1f05edad-bc59-4f33-baa9-80df13047c24)
+![Screenshot 2023-11-14 at 14-09-54 Frontend Mentor Social proof section](https://github.com/Gandalf-hash/social-proof-section/assets/53972152/3c9553f7-4965-4605-9a7c-62c1bd8e6975)
+
 
 
 ### Links
