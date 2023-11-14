@@ -7,7 +7,7 @@ function UserReviews() {
       {userReviews.map((review, index) => (
         <div
           key={index}
-          className={`w-full min-h-[276px] text-start flex flex-col rounded-xl max-w-md p-4  bg-primary-color text-white lg:px-10 lg:py-10 ${
+          className={`w-full text-start flex flex-col rounded-xl max-w-[420px] p-4  bg-primary-color text-white lg:px-10 lg:py-10 ${
             index === 1 ? "lg:mt-6" : index === 2 ? "lg:mt-14" : ""
           }`}
         >

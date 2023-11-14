@@ -3,7 +3,7 @@ import UserReviews from "./ui/user-reviews";
 
 function App() {
   return (
-    <div className="flex text-center md:text-start flex-col w-full max-w-full p-6 xl:px-20 xl:pt-28">
+    <div className="flex md:h-screen text-center md:text-start flex-col w-full max-w-full p-6 xl:px-20 xl:pt-28">
       <div className="flex md:flex-row flex-col justify-center md:justify-between">
         <div className="w-full flex flex-col gap-10 items-center mb-14 md:max-w-sm lg:max-w-md">
           <h1 className="font-bold text-primary-color lg:text-6xl mt-10 md:mt-0 md:max-w-md max-w-xs w-full text-4xl">
