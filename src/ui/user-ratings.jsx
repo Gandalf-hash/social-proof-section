@@ -3,12 +3,12 @@ import { items } from "../data";
 
 function UserRatings() {
   return (
-    <div className="flex w-full flex-col gap-4 max-w-xl">
+    <div className="flex w-full max-w-2xl flex-col gap-4 ">
       {items.map((item, index) => (
         <div
           key={index}
-          className={`flex w-full lg:flex-row xl:justify-center justify-start max-w-xl gap-2 xl:pr-6 border-none items-center rounded-xl bg-cream py-4 ${
-            index === 1 ? "lg:ml-16" : index === 2 ? "lg:ml-32" : ""
+          className={`flex w-full lg:flex-row xl:justify-center justify-start  gap-2 xl:pr-6 border-none items-center rounded-xl bg-cream py-4 ${
+            index === 1 ? "md:ml-16" : index === 2 ? "md:ml-32" : ""
           } ${index >= 0 ? "flex-col" : "flex-row"}`}
         >
           <div className="flex flex-row gap-2">

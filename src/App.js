@@ -3,9 +3,9 @@ import UserReviews from "./ui/user-reviews";
 
 function App() {
   return (
-    <div className="flex md:h-screen text-center md:text-start flex-col w-full max-w-full p-6 xl:px-20 xl:pt-28">
-      <div className="flex md:flex-row flex-col justify-center md:justify-between">
-        <div className="w-full flex flex-col gap-10 items-center mb-14 md:max-w-sm lg:max-w-md">
+    <div className="flex md:h-screen md:items-center text-center md:text-start p-6 flex-col w-full max-w-full xl:pt-28">
+      <div className="flex md:flex-row w-full xl:max-w-7xl flex-col justify-center lg:justify-between">
+        <div className="w-full flex flex-col gap-10  items-center mb-14 md:max-w-xs lg:max-w-md">
           <h1 className="font-bold text-primary-color lg:text-6xl mt-10 md:mt-0 md:max-w-md max-w-xs w-full text-4xl">
             10,000+ of our users love our products.
           </h1>
@@ -19,7 +19,7 @@ function App() {
           <UserRatings />
         </div>
       </div>
-      <div className="mt-10 xl:mt-0">
+      <div className="mt-10 xl:mt-0 xl:max-w-7xl">
         <UserReviews></UserReviews>
       </div>
     </div>
